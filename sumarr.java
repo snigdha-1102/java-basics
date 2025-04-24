@@ -3,7 +3,7 @@ class Main {
     public static void main(String[] args) {
      int []a=new int[5];
      int sum=0;
-     Scanner sc=new Scanner(System.in);
+     //Scanner sc=new Scanner(System.in);
      System.out.println("enter the values into array");
      for(int i=0;i<a.length;i++)
      {
@@ -14,6 +14,6 @@ class Main {
          sum=sum+a[i];
      }
      
-         System.out.println(" "+sum);
+         System.out.println(+sum);
     }
 }
